@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+                <item name="android:searchIcon">@mipmap/icon_main_action_bar_search_icon</item>
+
+        </style>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <!-- Customize your theme here. -->
+
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <!--状态栏颜色-->
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <!-- 窗口的背景颜色 -->
+                <item name="android:windowBackground">@android:color/white</item>
+                <item name="android:searchIcon">@mipmap/icon_main_action_bar_search_icon</item>
+        </style>
+
+
+</resources>
