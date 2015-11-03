@@ -22,17 +22,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="在故事里相遇"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:paddingBottom="5dp"/>
 
             <FrameLayout
                 android:id="@+id/framelayout_viewhomepager"
                 android:layout_width="match_parent"
                 android:layout_height="160dp">
 
-                <android.support.v4.view.ViewPager
+                <com.team.rhinoceros.story.module.ItemViewpager
                     android:id="@+id/viewpager_homepager"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+                    android:layout_height="match_parent"></com.team.rhinoceros.story.module.ItemViewpager>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -46,35 +47,29 @@
                         android:orientation="horizontal"
                         >
                         <ImageView
-                            android:id="@+id/imageview_bottom_viewpager_homepager"
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
-                            android:src="@drawable/homepager_top_image_pressed"/>
+                            android:id="@+id/imageview_bottomfirst_viewpager_homepager"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:src="@drawable/homepager_bottom_image_pressed"/>
                         <ImageView
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
-                            android:src="@drawable/homepager_top_image_normal"
+                            android:id="@+id/imageview_bottomsecond_viewpager_homepager"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:src="@drawable/homepager_bottom_image_normal"
                             android:layout_marginLeft="5dp"/>
                         <ImageView
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
-                            android:src="@drawable/homepager_top_image_normal"
+                            android:id="@+id/imageview_bottomthird_viewpager_homepager"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:src="@drawable/homepager_bottom_image_normal"
                             android:layout_marginLeft="5dp"/>
                         <ImageView
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
+                            android:id="@+id/imageview_bottomforth_viewpager_homepager"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
                             android:src="@drawable/homepager_top_image_normal"
                             android:layout_marginLeft="5dp"/>
-                        <ImageView
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
-                            android:src="@drawable/homepager_top_image_normal"
-                            android:layout_marginLeft="5dp"/>
-                        <ImageView
-                            android:layout_width="4dp"
-                            android:layout_height="4dp"
-                            android:src="@drawable/homepager_top_image_normal"
-                            android:layout_marginLeft="5dp"/>
+
                     </LinearLayout>
                 </LinearLayout>
             </FrameLayout>
